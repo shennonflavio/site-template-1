@@ -9,15 +9,15 @@ let transporter = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-        user: "shennonflavio@gmail.com",
-        pass: "oagzsejfvvpwadwa"
+        user: "youremail@email.com",
+        pass: "password"
     }
 });
 
 
 transporter.sendMail({
-    from: "Site teste <shennonflavio@gmail.com>",
-    to: "shennonflavio@gmail.com",
+    from: "Site teste <youremail@email.com>",
+    to: "email@email.com",
     subject: "teste de envio de email usando nodemailer",
     text: "teste de envio ",
 }).then(message => {
