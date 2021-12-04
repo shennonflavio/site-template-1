@@ -1,0 +1,22 @@
+{
+  "name": "site-vender",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shennonflavio/site-template.git"
+  },
+  "author": "Shennon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shennonflavio/site-template/issues"
+  },
+  "homepage": "https://github.com/shennonflavio/site-template#readme",
+  "dependencies": {
+    "nodemailer": "^6.7.2"
+  }
+}
